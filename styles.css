@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+/*colors variables*/
+:root {
+    --dark-background: #1F2937;
+    --main-text-color: #f9faf8;
+    --secondary-text-color: #e5e7eb;
+    --logo-text-color: #f9faf8;
+    --accent-color: #3882f6;
+    --information-text: #1f2937;
+    --quote-bg-color:#e5e7eb;
+    --quote-text-color:#1f2937;
+
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "Roroto-regular",sans-serif;
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roroto-regular-italic", sans-serif;
+    src: url(./fonts/Roboto-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roroto-medium", sans-serif;
+    src: url(./fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: "Roroto-medium-italic", sans-serif;
+    src: url(./fonts/Roboto-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roroto-bold", sans-serif;
+    src: url(./fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roroto-bold", sans-serif;
+    src: url(./fonts/Roboto-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roroto-extra-bold", sans-serif;
+    src: url(./fonts/Roboto-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roroto-extra-italic", sans-serif;
+    src: url(./fonts/Roboto-Black.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
