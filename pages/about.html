@@ -3,154 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/about.css">
     <title>About me</title>
 </head>
 <body>
-    <header>
-        <div class="about-container">
-            <a href="">LOGO</a>
-            <nav>
-                <ul>
-                    <li><a href="../pages/about.html">About</a></li>
-                    <li><a href="../pages/projects.html">Projects</a></li>
-                    <li><a href="">Contacts</a></li>
+    <header class="about-header">
+        <div class="about-container header-wrapp">
+            <a href="" class="about-logo">LOGO</a>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"><a href="../pages/about.html" class="about-nav-link">About me</a></li>
+                    <li class="header-nav-list-item"><a href="../pages/projects.html" class="about-nav-link">Projects</a></li>
+                    <li class="header-nav-list-item"><a href=""  class="about-nav-link">Contacts</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="summary">
+        <section class="about-section">
             <div class="about-container">
-                <img src="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg" alt="developer photo" width="400px">
-                <h2>Lucas Lucassion</h2>
-                <p>Front End Developer</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eaque maiores laboriosam voluptas odit, odio repellat a saepe. Earum molestias numquam quis nostrum, tenetur nobis itaque incidunt ab molestiae velit!</p>
+                <div class="summary-wrap">
+                    <img src="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg" alt="developer photo" width="400px">
+                    <div class="summary-text-wrap">
+                        <h2 class="summary-title">Lucas Lucassion</h2>
+                        <p class="summary-subtitle">Front End Developer</p>
+                        <p class="summary-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eaque maiores laboriosam voluptas odit, odio repellat a saepe. Earum molestias numquam quis nostrum, tenetur nobis itaque incidunt ab molestiae velit!
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
-        <secttion class="education">
+        <secttion class="about-section ">
             <div class="about-container">
-                <p>Education</p>
-                <p>University of Birmingham</p>
-                <p>Qualification</p>
-                <p>Computer Science BSc</p>
-                <ul>
-                    <li>
-                        <p>
-                            I completed a three-year BSc Computer Science degree is structured to provide with a thorough understanding of a wide
-                    range of computational systems and take challenges of individual and group projects.
+                <p class="section-title reverce-section-title ">Education</p>
+                <div class="education-wrap">
+                    <img src="https://neetable.com/img/blog/blog-inner/the-role-of-future-education/the-role-of-future-education.jpg" alt=""
+                        width="400px" height="400px">
+                    <div class="education-text-wrap">
+                        <p class="education-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fugit unde atque ipsum omnis inventore. Magni, magnam
+                            voluptatibus? Dolor rerum tempore consequatur sit eveniet placeat error reiciendis accusamus qui perspiciatis!
                         </p>
-                    </li>
-                    <li>
-                        <p>
-                            I gained a firm foundation in the principles of algorithms, AI, software engineering, and relevant maths.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            I developed key skills needed to boost my future prospects. In my second year, I worked in a team to produce software
-                            and also learn new styles of programming in Java, a language widely used in business and industry.
-                        </p>
-                    </li>
-                </ul>
-                <p>The Development Manager LTD Skills Bootcamp</p>
-                <p>Qualification</p>
-                <p>BSc (Hons) Degree Apprenticeship</p>
-                <ul>
-                    <li>
-                        <p>
-                            I familiar with all stages of the software development life-cycle (what each stage contains, including the inputs and outputs)
-                        </p>
-                    </li>
-                    <li>
-                        <p>How best to communicate using the different communication methods and how to adapt appropriately to different audiences</p>
-                    </li>
-                    <li>
-                        <p>Software design approaches and patterns, to identify reusable solutions to commonly occurring problems</p>
-                    </li>
-                    <li>
-                        <p>
-                            Algorithms, logic and data structures relevant to software development for example:- arrays- stacks- queues- linked
-                            lists- trees- graphs- hash tables- sorting algorithms- searching algorithms- critical sections and race conditions
-                        </p>
-                    </li>
-                </ul>
-                    
-                <img src="https://neetable.com/img/blog/blog-inner/the-role-of-future-education/the-role-of-future-education.jpg" alt="" width="400px">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fugit unde atque ipsum omnis inventore. Magni, magnam voluptatibus? Dolor rerum tempore consequatur sit eveniet placeat error reiciendis accusamus qui perspiciatis!
-                </p>
+                        <p class="education-name">University of Birmingham</p>
+                        <div class="qualification-wrap">
+                            <p class="qualification-title">Qualification:</p>
+                            <p class="qualification">Computer Science BSc</p>
+                        </div>
+                        <ul class="education-list">
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    I completed a three-year BSc Computer Science degree is structured to provide with a thorough understanding of a wide
+                            range of computational systems and take challenges of individual and group projects.
+                                </p>
+                            </li>
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    I gained a firm foundation in the principles of algorithms, AI, software engineering, and relevant maths.
+                                </p>
+                            </li>
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    I developed key skills needed to boost my future prospects. In my second year, I worked in a team to produce software
+                                    and also learn new styles of programming in Java, a language widely used in business and industry.
+                                </p>
+                            </li>
+                        </ul>
+                        <p class="education-name">The Development Manager LTD Skills Bootcamp</p>
+                        <div class="qualification-wrap">
+                            <p class="qualification-title">Qualification:</p>
+                            <p class="qualification">BSc (Hons) Degree Apprenticeship</p>
+                        </div>
+                        <ul class="education-list">
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    I familiar with all stages of the software development life-cycle (what each stage contains, including the inputs and outputs).
+                                </p>
+                            </li>
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    How best to communicate using the different communication methods and how to adapt appropriately to different audiences.
+                                </p>
+                            </li>
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    Software design approaches and patterns, to identify reusable solutions to commonly occurring problems.
+                                </p>
+                            </li>
+                            <li class="education-list-item">
+                                <p class="education-text">
+                                    Algorithms, logic and data structures relevant to software development for example:- arrays- stacks- queues- linked
+                                    lists- trees- graphs- hash tables- sorting algorithms- searching algorithms- critical sections and race conditions.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </secttion>
-        <section class="experience">
+        <section class="about-section ">
             <div class="about-container">
-                <p>Work Experience</p>
-                <img src="https://careersportal.ie/sites/default/files/2022-12/Work%20Experience.png" alt="" width="400px">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime modi consequatur cumque veritatis illum fugit eius. Corporis commodi iure nam rem iusto laboriosam voluptas quas? Aliquam voluptas ipsam necessitatibus? Sapiente!
-                </p>
-                <ul>
-                    <li>
-                        <p>
-                            IBM Internship
+                <p class="section-title">Work Experience</p>
+                <div class="experience-wrap">
+                    <img src="https://careersportal.ie/sites/default/files/2022-12/Work%20Experience.png" alt="" width="400px">
+                    <div class="experience-text-wrap">
+                        <p class="experience-description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime modi consequatur cumque veritatis illum fugit eius. Corporis commodi iure nam rem iusto laboriosam voluptas quas? Aliquam voluptas ipsam necessitatibus? Sapiente!
                         </p>
-                        <p>
-                            Intern
-                        </p>
-                        <ul>
+                        <ul class="companies-list">
                             <li>
-                                <p>
-                                    Knowledge working with client-server architectures, networking protocols, application development, and using databases.
+                                <p class="company-name">
+                                    IBM Internship
                                 </p>
+                                <p class="job-role">
+                                    Intern
+                                </p>
+                                <ul class="work-description-list">
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Knowledge working with client-server architectures, networking protocols, application development, and using databases.
+                                        </p>
+                                    </li>
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Create Application Programming Interfaces (APIs) that are clean, well-documented, and easy to use
+                                        </p>
+                                    </li>
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Have an understanding of, or experience with, Agile development methodology
+                                        </p>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <p>
-                                    Create Application Programming Interfaces (APIs) that are clean, well-documented, and easy to use
+                                <p class="company-name">
+                                    IBM
                                 </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Have an understanding of, or experience with, Agile development methodology
+                                <p class="job-role">
+                                    Junior Front End Developer
                                 </p>
+                                <ul class="work-description-list">
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Strong JavaScript knowledge, ES6 (ECMA Script 6)
+                                        </p>
+                                    </li>
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
+                                        </p>
+                                    </li>
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Experience with popular React.js workflows (such as Flux or Redux)
+                                        </p>
+                                    </li>
+                                    <li class="work-descr-list-item">
+                                        <p class="work-text">
+                                            Experience with Typescript, PHP
+                                        </p>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <p>
-                            IBM
-                        </p>
-                        <p>
-                            Junior Front End Developer
-                        </p>
-                        <ul>
-                            <li>
-                                <p>
-                                    Strong JavaScript knowledge, ES6 (ECMA Script 6)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Experience with popular React.js workflows (such as Flux or Redux)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Experience with Typescript, PHP
-                                </p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="about-footer">
         <div class="about-container">
-            <p>Copyright<span>&#xa9;</span></p>
+            <p class="footer-text">Copyright<span>&#xa9;</span></p>
         </div>
     </footer>
 </body>

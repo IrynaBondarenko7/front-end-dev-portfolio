@@ -1,1 +1,219 @@
 @import url('../styles.css');
+
+
+/*header*/
+
+.about-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+   
+}
+
+.about-header {
+    background-color: var(--dark-background);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-wrapp{
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    @media screen and (max-width: 600px){
+    flex-wrap: wrap;
+    row-gap: 5px;
+    gap: 20px;
+    }
+}
+
+.about-logo {
+    font-family: Roroto-medium;
+    font-size: 24px;
+    color: var(--logo-text-color);
+    font-weight: 500;
+    margin: 0;
+}
+
+.about-nav-link {
+    font-family: Roroto-regular;
+    font-size: 18px;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*main*/
+.about-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.summary-wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.summary-text-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.summary-title {
+    text-align: center;
+    font-family: Roroto-bold;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin: 0;
+}
+.summary-subtitle {
+text-align: center;
+    font-family: Roroto-regular;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin: 0;
+}
+.summary-description {
+    max-width: 500px;
+    font-family: Roroto-regular;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+    color:var(--accent-color);
+    font-family: Roroto-bold;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    &::before {
+        content: '';
+        width: 60px;
+        height: 1px;
+        background-color: currentColor;
+    }
+}
+
+.reverce-section-title {
+    justify-content: end;
+}
+
+.education-wrap{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.education-text-wrap,.experience-text-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.education-description, .experience-description {
+    font-family: Roroto-regular;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.education-name, .company-name{
+    font-family: Roroto-bold;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+.qualification-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    padding-top: 10px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.qualification-title{
+    font-family: Roroto-bold;
+    font-weight: 700;    
+}
+.qualification {
+    font-family: Roroto-regular;
+    font-weight: 400;
+}
+
+.education-list{
+    margin: 0;
+    padding: 10px 0 0 30px;
+}
+.education-list-item, .work-descr-list-item {
+    margin-bottom: 5px;
+}
+
+.education-text, .work-text {
+    font-family: Roroto-regular;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+.experience-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.job-role {
+    font-family: Roroto-bold;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.companies-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.work-description-list{
+    margin: 0;
+    padding: 10px 0 0 30px;
+}
+
+/*footer*/
+
+.about-footer {
+    background-color: var(--dark-background);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+
+.footer-text {
+    font-family: Roroto-regular;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin: 0;
+}
+
+.footer-text span {
+    margin-left: 10px;
+}
