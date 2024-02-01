@@ -25,16 +25,8 @@ text-align: center;
 transform: scale(1.02);
 }
 
-/* @media (max-width: 1100px) {
-.project {
-flex: 0 0 calc(50% - 20px);
-}
-} */
-
 @media (max-width: 600px) {
 .project {
-/* 
- */
 }
 }
 
