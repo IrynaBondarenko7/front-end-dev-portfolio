@@ -42,7 +42,6 @@ transform: scale(1.02);
 }
 
 .container {
-    
-    background: repeating-radial-gradient(circle at bottom left, var(--accent-color), var(--accent-color) 0.5px, transparent 0.5px, transparent 40px);
-    
+margin-top: 10px;
+
 }
