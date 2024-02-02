@@ -450,7 +450,6 @@ html{
         }
     }
 
-    background: repeating-radial-gradient(circle at bottom left, var(--accent-color), var(--accent-color) 0.5px, transparent 0.5px, transparent 40px);
 }
 
 .summary-text-wrap {
@@ -522,9 +521,6 @@ html{
     @media screen and (max-width: 700px) {
         flex-direction: column;
     }
-
-    background: repeating-radial-gradient(circle at top right, var(--accent-color), var(--accent-color) 0.5px, transparent 0.5px, transparent 40px);
-
 }
 
 .education-text-wrap,
@@ -598,8 +594,6 @@ html{
     @media screen and (max-width: 700px) {
         flex-direction: column;
     }
-
-    background: repeating-radial-gradient(circle at bottom left, var(--accent-color), var(--accent-color) 0.5px, transparent 0.5px, transparent 40px);
 }
 
 .job-role {
