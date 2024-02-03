@@ -11,80 +11,79 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="main-wrapper">
-        <header class="about-header">
-            <div class="about-container header-wrapp">
-                <a href="../index.html" class="about-logo">DEV</a>
-                <nav class="header-nav">
-                    <ul class="header-nav-list">
-                        <li class="header-nav-list-item"><a href="index.html" class="about-nav-link">Home</a></li>
-                        <li class="header-nav-list-item"><a href="./pages/about.html" class="about-nav-link">About me</a></li>
-                        <li class="header-nav-list-item"><a href="./pages/projects.html" class="about-nav-link">Projects</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class="about-header">
+        <div class="about-container header-wrapp">
+            <a href="../index.html" class="about-logo">DEV</a>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"><a href="index.html" class="about-nav-link">Home</a></li>
+                    <li class="header-nav-list-item"><a href="./pages/about.html" class="about-nav-link">About me</a></li>
+                    <li class="header-nav-list-item"><a href="./pages/projects.html" class="about-nav-link">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
         <main class="main-container">
             <section class="section-container">
-                <div class="wrapper wrapper-hero">
+                <aside class="wrapper wrapper-hero">
                     <h1>Hi, I'm Margaret Lyons</h1>
                     <p>Website Designer/Developer</p>
                     <p>I am a creative web designer and developer. Who loves designing and creating beautiful graphics interactive and functional websites. </p>
-                    <div class="btn">
-                        <a class="main-btn" href="#information"><button type="button">Explore</button></a>
-                    </div>
-                </div>
-              <div class="wrapper wrapper-image">
-                <div class="image">
-                    <img src="images/image_1.png">
-                </div>
-            </div>
+                    <a class="main-btn" href="#information"><button type="button">Explore</button></a>
+                </aside>
+                <picture class="wrapper wrapper-image">
+                    <img src="images/image_1.png" alt="hero-image">
+                </picture>
             </section>
-       
-        <section class="information-container" id="information">
-            <h1>Programming languages</h1>
-            <div class="info-wrapper">
-                <div class="info">
-                    <img src="images/image_2.jpeg">
-                    <p>HTML is perhaps one of the easiest front-end programming languages to master!</p>
-                </div>
-                <div class="info">
+            <section class="information-container" id="information">
+            <h2>Programming languages</h2>
+            <section class="info-wrapper">
+                <figure class="info">
+                    <img src="images/image_2.jpeg" alt="html-image">
+                    <figcaption>
+                        <p>HTML</p>
+                        <p>(Hypertext Markup Language)</p>
+                    </figcaption>
+                </figure>
+                <figure class="info">
                     <img src="images/image_3.jpeg">
-                    <p>
-                        Cascading Style Sheets (CSS) is a computer language for laying out and structuring web pages (HTML or XML).</p>
-                </div>
-                <div class="info">
+                    <figcaption>
+                        <p>CSS</p>
+                        <p>(Cascading Style Sheets)</p>
+                    </figcaption>
+                </figure>
+                <figure class="info">
                     <img src="images/image_4.jpeg">
-                    <p>JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive.</p>
-                </div>
-                <div class="info">
+                    <figcaption>
+                        <p>JS</p>
+                        <p>(JavaScript)</p>
+                    </figcaption>
+                </figure>
+                <figure class="info">
                     <img src="images/image_5.jpeg">
-                    <p>PHP is an open-source, server-side programming language that can be used to create websites, applications and more.</p>
-                </div>
-            </div>
+                    <figcaption>
+                        <p>PHP</p>
+                        <p>(Hypertext Preprocessor)</p>
+                    </figcaption>
+                </figure>
+            </section>
         </section>
         <section class="quote-wrapper">
-            <div class="quote-container">
+            <blockquote class="quote-container">
                 <p>"I strive for two things in design: simplicity and clarity. Great design is born of those two things."</p>
-            </div>
+                <p class="author">-Anonymous</p>
+            </blockquote>
         </section>
-            
         <section class="action-wrapper">
-            <div class="action-container">
-                <div class="action-info">
-                   <p>Interested in working together? Let's have a talk.</p>
-                </div>
-                <div class="action-info">
-                    <a class="actionbtn" href="#"><button type="button">Sign up</button></a>
-                </div>
-            </div>
+            <aside class="action-container">
+                <h3>Call to action! It's time</h3>
+                <p>Interested in working together? Let's have a talk. Sign up by clicking the button right over there!</p>
+            </aside>
+            <a class="actionbtn" href="#"><button type="button">Sign up</button></a>
         </section>
-        <footer class="footer-wrapper">
-            <div class="footer-container">
-                <p>Copyright<span>&#xa9</span></p>
-            </div>
-        </footer>
         </main>
-    </div>
-</body>
+        <footer class="footer-wrapper">
+            <p>Copyright<span>&#xa9</span></p>
+        </footer>
+    </body>
 </html>
