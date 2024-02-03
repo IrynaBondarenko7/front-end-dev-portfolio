@@ -7,10 +7,6 @@
 }
 body {
     padding-top: 60px;
-    
-        @media screen and (max-width: 700px) {
-            padding-top: 140px;
-        }
 }
 html{
     scroll-behavior: smooth;
@@ -358,7 +354,6 @@ html{
     padding-left: 15px;
     margin: 0 auto;
     max-width: 1200px;
-
 }
 
 .about-header {
@@ -370,12 +365,18 @@ html{
     width: 100%;
     top: 0;
     left: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+  
 }
 
 .header-wrapp {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header-nav-list {
@@ -385,12 +386,6 @@ html{
     list-style: none;
     margin: 0;
     padding: 0;
-
-    @media screen and (max-width: 700px) {
-        flex-direction: column;
-        row-gap: 5px;
-        gap: 20px;
-    }
 }
 
 .about-logo {
@@ -517,7 +512,7 @@ html{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-
+    gap: 10px;
     @media screen and (max-width: 700px) {
         flex-direction: column;
     }
@@ -528,15 +523,6 @@ html{
     display: flex;
     flex-direction: column;
     max-width: 600px;
-}
-
-.education-description,
-.experience-description {
-    font-family: Roroto-regular;
-    font-weight: 400;
-    font-size: 20px;
-    padding-top: 10px;
-    margin: 0;
 }
 
 .education-name,
@@ -590,7 +576,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    gap: 10px;
     @media screen and (max-width: 700px) {
         flex-direction: column;
     }
@@ -620,6 +606,10 @@ html{
     background-color: var(--dark-background);
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
 }
 
 
