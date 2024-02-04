@@ -727,7 +727,9 @@ html{
  }
 
  @media (max-width: 600px) {
-     .project {}
+     .project img {
+        max-width: 300px;
+     }
  }
 
  .project img {
