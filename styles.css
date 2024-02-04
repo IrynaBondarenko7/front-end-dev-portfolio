@@ -691,9 +691,15 @@ html{
      align-items: center;
      flex-wrap: wrap;
      margin-top: 20px;
+     font-family: "Roroto-Light-italic", sans-serif;
  }
 
  .container h2 {
+     text-align: center;
+     margin-top: 40px;
+ }
+
+  .container h2 {
      text-align: center;
  }
 
@@ -702,6 +708,18 @@ html{
      margin-bottom: 20px;
      padding: 10px;
      text-align: center;
+ }
+
+ .project h3 {
+    margin: 20px;
+ }
+
+  .project img {
+    margin: 5px;
+ }
+
+   .project p {
+    margin: 20px;
  }
 
  .project:hover {
