@@ -190,15 +190,14 @@ html{
     text-align:center;
    
 }
-.information-container{
-    width:70%;
-  
-} 
 
 .information-container{
     width:70%;
     margin:auto;
     padding-top:70px; 
+    @media screen and (max-width: 425px){
+        width: 100%;
+    }
 } 
 .info-wrapper{
   
@@ -488,6 +487,12 @@ html{
 .about-section {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.about-img{
+    @media screen and (max-width: 425px){
+        width: 100%;
+    }
 }
 
 .summary-wrap {
